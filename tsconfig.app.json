@@ -11,14 +11,14 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
 
-    "types": ["vite/client"],
+    "types": ["vite/client", "node"],
 
     "skipLibCheck": true,
 
-    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
 
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     },
 
     "allowImportingTsExtensions": true,
@@ -39,4 +39,3 @@
 
   "include": ["src"]
 }
-
